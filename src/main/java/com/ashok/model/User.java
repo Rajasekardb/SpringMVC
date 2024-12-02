@@ -7,8 +7,15 @@ public class User {
 	private String email;
 	private Long phno;
 	private String gender;
+	private string mobile;
 
-
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+	public String getMobile() {
+		return mobile;
+	}
+	
 	public String getUname() {
 		return uname;
 	}
